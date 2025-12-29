@@ -1,15 +1,15 @@
 export default function Hero() {
   return (
     <section className="min-vh-100 d-flex align-items-center bg-light">
-      <div className="container-fluid p-5 p-md-6">
+      <div className="container-fluid px-md-5 p-md-6">
         <div className="row">
           <div className="col-lg-8">
             <span className="badge bg-dark rounded-pill px-3 py-2 mb-3">
-              Available for freelance projects
+              Available for full time roles & freelance projects
             </span>
 
 
-            <h1 className="fw-bold display-3 lh-1 mb-3">
+            <h1 className="fw-bold display-4 display-md-3 lh-1 mb-3">
               Hargun Singh Khera
             </h1>
 

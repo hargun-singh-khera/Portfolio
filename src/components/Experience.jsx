@@ -42,9 +42,7 @@ export default function Experience() {
             
             <ul className="text-muted">
               <li>
-                Led development of a cross-platform React Native e-commerce
-                application, implementing secure payments and optimized user
-                flows.
+                Contributed to the development of a cross-platform React Native e-commerce application, implementing secure payments and optimizing user flows.
               </li>
               <li>
                 Engineered an AI-powered ad generation platform to automate
@@ -63,7 +61,7 @@ export default function Experience() {
             {/* Tech Stack */}
             <div className="d-flex flex-wrap gap-2 mt-3">
               {techStacks.map(stack => 
-                <span className="badge bg-secondary bg-opacity-10 text-dark">
+                <span key={stack} className="badge bg-secondary bg-opacity-10 text-dark">
                   {stack}
                 </span>
               )}
