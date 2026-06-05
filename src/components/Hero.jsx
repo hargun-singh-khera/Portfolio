@@ -31,7 +31,7 @@ export default function Hero() {
                 Contact Me
               </a>
               <a
-                href="https://drive.google.com/file/d/10tRHWVbcw7yZMB4I-pj2RFp4BTjvGlnD/view?usp=sharing"
+                href="https://drive.google.com/file/d/1PFRTR9nEP91RQHDYbcXUG8YEjgGAxXHu/view?usp=drive_link"
                 className="btn btn-outline-dark btn-lg"
                 target="_blank"
                 rel="noopener noreferrer"
