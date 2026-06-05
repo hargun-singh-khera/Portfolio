@@ -16,7 +16,7 @@ export default function About() {
           </div>
           <div className="col-md-6 text-center">
             <img 
-              src="https://www.svgrepo.com/show/220462/profile-portfolio.svg"
+              src="https://avatars.githubusercontent.com/u/73162785?s=400&u=24b99df714aac87cc307f06a478a12257718b22d&v=4"
               alt="About illustration"
               className="img-fluid rounded shadow-sm"
               style={{ maxHeight: "300px", objectFit: "contain" }}
