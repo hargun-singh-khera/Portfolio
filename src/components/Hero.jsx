@@ -23,7 +23,7 @@ export default function Hero() {
             </p>
 
             <p className="text-muted mb-4">
-              MERN Stack • React Native • Node.js • Express • MongoDB
+              React.js • React Native • Node.js • Express.js • MongoDB • AWS
             </p>
 
             <div className="d-flex flex-wrap gap-3">

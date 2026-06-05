@@ -4,20 +4,29 @@ import { FiEye, FiCode } from 'react-icons/fi'
 export default function Projects() {
     const projects = [
         {
-            title: 'Nexora CRM',
-            desc: 'A full-featured CRM platform for lead management, agent tracking, and analytics dashboards.',
+
+            title: 'TaskZen - Task Management Platform',
+            desc: 'A full-stack task management platform with JWT authentication, analytics dashboards, task tracking, and team collaboration workflows.',
+            img: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3',
+            demo: 'https://taskzen-henna.vercel.app/',
+            code: 'https://github.com/hargun-singh-khera/TaskZen', 
+            stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Chart.js']
+        },
+        {
+            title: 'Nexora - Customer Relationship Management (CRM)',
+            desc: 'A CRM platform for lead management, agent tracking, workflow automation, and analytics dashboards.',
             img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
             demo: 'https://nexora-crm-mu.vercel.app/',
             code: 'https://github.com/hargun-singh-khera/nexora-crm',
             stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Charts.js']
         },
         {
-            title: 'Trendyne',
-            desc: 'Modern e-commerce fashion store with advanced search, filters, wishlist, and cart workflows.',
+            title: 'Trendyne - Online Fashion Shopping Store',
+            desc: 'A modern fashion e-commerce platform with product search, filtering, wishlist, cart, and seamless shopping workflows.',
             img: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f',
             demo: 'https://trendyne.vercel.app/',
             code: 'https://github.com/hargun-singh-khera/trendyne',
-            stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Context']
+            stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Context API']
         },
         {
             title: 'VidTube Backend',
@@ -27,22 +36,22 @@ export default function Projects() {
             code: 'https://github.com/hargun-singh-khera/vidTube-Backend',
             stack: ['Node.js', 'Express.js', 'MongoDB']
         },
-        {
-            title: 'DisasterGuard',
-            desc: 'Android-based disaster management system using Firebase and role-based access control.',
-            img: 'https://images.unsplash.com/photo-1581090700227-1e37b190418e',
-            demo: 'https://github.com/hargun-singh-khera/DisasterGuard',
-            code: 'https://github.com/hargun-singh-khera/DisasterGuard',
-            stack: ['Android', "Kotlin", 'Firebase']
-        },
-        {
-            title: 'Heritage Hotel',
-            desc: 'Hotel booking platform with real-time availability, pricing logic, and admin dashboard.',
-            img: 'https://images.unsplash.com/photo-1566073771259-6a8506099945',
-            demo: 'http://heritagehotel.iceiy.com/',
-            code: 'https://github.com/hargun-singh-khera/Hotel-Booking-System',
-            stack: ['PHP', 'MySQL', 'Bootstrap', "XAMPP"]
-        }
+        // {
+        //     title: 'DisasterGuard',
+        //     desc: 'Android-based disaster management system using Firebase and role-based access control.',
+        //     img: 'https://images.unsplash.com/photo-1581090700227-1e37b190418e',
+        //     demo: 'https://github.com/hargun-singh-khera/DisasterGuard',
+        //     code: 'https://github.com/hargun-singh-khera/DisasterGuard',
+        //     stack: ['Android', "Kotlin", 'Firebase']
+        // },
+        // {
+        //     title: 'Heritage Hotel',
+        //     desc: 'Hotel booking platform with real-time availability, pricing logic, and admin dashboard.',
+        //     img: 'https://images.unsplash.com/photo-1566073771259-6a8506099945',
+        //     demo: 'http://heritagehotel.iceiy.com/',
+        //     code: 'https://github.com/hargun-singh-khera/Hotel-Booking-System',
+        //     stack: ['PHP', 'MySQL', 'Bootstrap', "XAMPP"]
+        // }
     ]
 
     return (
