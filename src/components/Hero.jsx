@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="min-vh-100 d-flex align-items-center bg-light">
-      <div className="container-fluid px-md-5 p-md-6">
+      <div className="container p-md-6">
         <div className="row">
           <div className="col-lg-8">
             <span className="badge bg-dark rounded-pill px-3 py-2 mb-3">

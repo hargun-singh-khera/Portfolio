@@ -17,7 +17,7 @@ export default function Contact() {
                 <FaEnvelope size={40} className="mb-3 text-dark" />
                 <h5 className="card-title">Email</h5>
                 <p className="card-text text-secondary">Reach out directly via email</p>
-                <a href="mailto:hargunsinghkhera@gmail.com" className="btn btn-dark">
+                <a href="mailto:hargunsinghkhera@gmail.com" className="btn btn-outline-dark">
                   Send Email
                 </a>
 

@@ -1,9 +1,9 @@
 export default function About() {
   return (
-    <section id="about" className="py-5 bg-light">
+    <section id="about" className="bg-light py-5">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-md-6 mb-4 mb-md-0">
+        <div className="row align-items-center justify-content-between">
+          <div className="col-md-6 mb-5 mb-md-0">
             <h2 className="fw-bold display-5 mb-3">About Me</h2>
             <p className="text-secondary fs-5">
               I am a Full Stack Developer specializing in building scalable MERN stack applications,
@@ -14,7 +14,7 @@ export default function About() {
               Passionate about clean code, modern web standards, and continuous learning.
             </p>
           </div>
-          <div className="col-md-6 text-center">
+          <div className="col-md-4 text-center align-self-right">
             <img 
               src="https://avatars.githubusercontent.com/u/73162785?s=400&u=24b99df714aac87cc307f06a478a12257718b22d&v=4"
               alt="About illustration"
