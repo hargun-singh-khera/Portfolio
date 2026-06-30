@@ -4,6 +4,15 @@ import { FiEye, FiCode } from 'react-icons/fi'
 export default function Projects() {
     const projects = [
         {
+            title: 'Albumix - Collaborative Photo Gallery',
+            desc: 'A collaborative photo gallery with secure authentication, shared albums, comments, and cloud-based media management.',
+            img: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4',
+            demo: 'https://albumix-omega.vercel.app/',
+            code: 'https://github.com/hargun-singh-khera/Albumix',
+            stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Cloudinary', 'Google OAuth'],
+            timeline: 'Apr 2026 - Jul 2026'
+        },
+        {
 
             title: 'TaskZen - Task Management Platform',
             desc: 'A full-stack task management platform with JWT authentication, analytics dashboards, task tracking, and team collaboration workflows.',
@@ -28,14 +37,14 @@ export default function Projects() {
             code: 'https://github.com/hargun-singh-khera/trendyne',
             stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Context API']
         },
-        {
-            title: 'VidTube Backend',
-            desc: 'Scalable backend system for video uploads, authentication, and content management.',
-            img: 'https://images.pexels.com/photos/593324/pexels-photo-593324.jpeg',
-            demo: 'https://github.com/hargun-singh-khera/vidTube-Backend',
-            code: 'https://github.com/hargun-singh-khera/vidTube-Backend',
-            stack: ['Node.js', 'Express.js', 'MongoDB']
-        },
+        // {
+        //     title: 'VidTube Backend',
+        //     desc: 'Scalable backend system for video uploads, authentication, and content management.',
+        //     img: 'https://images.pexels.com/photos/593324/pexels-photo-593324.jpeg',
+        //     demo: 'https://github.com/hargun-singh-khera/vidTube-Backend',
+        //     code: 'https://github.com/hargun-singh-khera/vidTube-Backend',
+        //     stack: ['Node.js', 'Express.js', 'MongoDB']
+        // },
         // {
         //     title: 'DisasterGuard',
         //     desc: 'Android-based disaster management system using Firebase and role-based access control.',
@@ -77,7 +86,7 @@ export default function Projects() {
                                     src={project.img}
                                     alt={project.title}
                                     className="card-img-top"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ height: '250px', objectFit: 'cover' }}
                                 />
 
                                 {/* Content */}

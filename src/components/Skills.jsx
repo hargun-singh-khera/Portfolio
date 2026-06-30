@@ -24,8 +24,24 @@ export default function Skills() {
       items: [
         { name: "Node.js", src: "https://skillicons.dev/icons?i=nodejs" },
         { name: "Express.js", src: "https://skillicons.dev/icons?i=express" },
+      ],
+    },
+    {
+      title: "Databases",
+      items: [
         { name: "MongoDB", src: "https://skillicons.dev/icons?i=mongodb" },
         { name: "SQL", src: "https://skillicons.dev/icons?i=mysql" },
+      ],
+    },
+    {
+      title: "Tools & Platforms",
+      items: [
+        { name: "Git", src: "https://skillicons.dev/icons?i=git" },
+        { name: "GitHub", src: "https://skillicons.dev/icons?i=github" },
+        { name: "Postman", src: "https://skillicons.dev/icons?i=postman" },
+        { name: "Docker", src: "https://skillicons.dev/icons?i=docker" },
+        { name: "AWS", src: "https://skillicons.dev/icons?i=aws" },
+        { name: "Cloudinary", src: "https://cloudinary.com/favicon.ico" }, // if you add a custom icon
       ],
     },
   ];
@@ -37,7 +53,7 @@ export default function Skills() {
 
         {skillCategories.map((category, idx) => (
           <div key={idx} className="mb-5">
-            <h5 className="mb-3 text-primary">{category.title}</h5>
+            <h5 className="fw-semibold text-uppercase small text-muted mb-3">{category.title}</h5>
 
             <div className="row g-3">
               {category.items.map((skill, index) => (
